@@ -1,3 +1,7 @@
 module.exports = function reverseString(string) {
-  // Your code here
+  let result = [];
+  for (let char of string) {
+    result.unshift(char);
+  }
+  return result.join("");
 };

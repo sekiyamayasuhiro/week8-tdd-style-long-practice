@@ -1,5 +1,7 @@
 function returnsThree() {
-  // Your code here
+  if (num === 3) {
+    return 3;
+  }
 }
 
 function reciprocal(n) {
